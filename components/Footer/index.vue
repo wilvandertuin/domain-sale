@@ -34,7 +34,7 @@ footer {
 .manifest {
   font-weight: 600;
   font-size: 14px;
-  line-height: 21px;
+  line-height: 1.5;
   color: rgba(255, 255, 255, 0.5);
 }
 </style>

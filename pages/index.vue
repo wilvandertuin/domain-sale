@@ -1,21 +1,51 @@
 <template>
-  <main>
+  <div class="layout">
     <Logo />
-    <C2a />
-    <Benefits />
+    <main>
+      <C2a />
+      <Benefits />
+    </main>
     <Footer />
-  </main>
+  </div>
 </template>
 
 <style lang="scss" scoped>
-main {
+.layout {
   display: flex;
   flex-direction: column;
-  max-width: 360px;
   margin: 0 auto;
-  gap: 36px;
   height: 100%;
   min-height: 100%;
-  justify-content: space-between;
+}
+
+@media (max-width: 719px) {
+  .layout {
+    max-width: 360px;
+    row-gap: 36px;
+    justify-content: space-between;
+  }
+
+  main {
+    display: contents;
+  }
+}
+
+@media (min-width: 720px) {
+  .layout {
+    display: flex;
+    width: 100%;
+    max-width: 800px;
+    row-gap: 60px;
+  }
+
+  main {
+    // display: flex;
+    // flex-direction: row;
+    // column-gap: 32px;
+    // justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 32px;
+  }
 }
 </style>

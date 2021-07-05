@@ -33,4 +33,11 @@ li {
   line-height: 1.25;
   color: white;
 }
+
+@media (min-width: 720px) {
+  section {
+    padding: 12px 42px;
+    padding-left: 0;
+  }
+}
 </style>

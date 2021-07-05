@@ -1,5 +1,5 @@
 <template>
-  <a href="#">
+  <div href="#">
     <span>Buy Domain Now</span>
     <svg
       width="8"
@@ -13,11 +13,11 @@
         fill="#042e38"
       />
     </svg>
-  </a>
+  </div>
 </template>
 
 <style lang="scss" scoped>
-a {
+div {
   display: block;
   border-radius: 0px 0px 8px 8px;
   background: #ffc439;

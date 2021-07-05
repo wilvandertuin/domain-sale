@@ -1,17 +1,19 @@
 <template>
-  <div class="container">
-    <div class="card">
-      <div class="content">
-        <div class="operation">Transfer Domain Name</div>
-        <div class="offer">
-          <div class="name">cdmx.gay</div>
-          <div class="price">$1,000.00 USD</div>
+  <nav>
+    <div class="container">
+      <a class="card" href="#">
+        <div class="content">
+          <div class="operation">Transfer Domain Name</div>
+          <div class="offer">
+            <div class="name">cdmx.gay</div>
+            <div class="price">$1,000.00 USD</div>
+          </div>
         </div>
-      </div>
-      <Button />
+        <Button />
+      </a>
+      <div class="subline">Safely with ESCROW.COM</div>
     </div>
-    <div class="subline">Safely with ESCROW.COM</div>
-  </div>
+  </nav>
 </template>
 
 <style lang="scss" scoped>
@@ -31,6 +33,7 @@
   box-shadow: 0px 16px 14px rgba(0, 0, 0, 0.2);
   border-radius: 8px;
   color: white;
+  text-decoration: none;
 }
 
 .content {
@@ -78,5 +81,15 @@
   font-size: 12px;
   font-weight: 400;
   text-transform: uppercase;
+}
+
+@media (min-width: 720px) {
+  nav {
+  }
+
+  .container {
+    width: 280px;
+    margin: 0 auto;
+  }
 }
 </style>
