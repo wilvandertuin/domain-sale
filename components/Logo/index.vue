@@ -7,6 +7,7 @@ h1 {
   color: white;
   margin: 0;
   line-height: 1;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .marker {
