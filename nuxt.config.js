@@ -2,6 +2,10 @@ export default {
   // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
 
+  publicRuntimeConfig: {
+    crispWebsiteId: process.env.CRISP_WEBSITE_ID,
+  },
+
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     title: 'CDMX.gay | Domain transfer',
@@ -31,7 +35,7 @@ export default {
   css: ['@/assets/scss/main.scss'],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
-  plugins: [],
+  plugins: [{ src: '~plugins/crisp.js', mode: 'client' }],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
   components: true,
