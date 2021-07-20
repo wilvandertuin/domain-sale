@@ -1,5 +1,6 @@
 <template>
   <div class="layout">
+    <Bg />
     <Logo />
     <main>
       <C2a />

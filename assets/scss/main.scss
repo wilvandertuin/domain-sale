@@ -22,16 +22,6 @@ body {
 #__layout {
   position: fixed;
   inset: 0;
-  background: linear-gradient(
-        180deg,
-        rgba(0, 0, 0, 0) 0%,
-        rgba(82, 33, 6, 0.79) 80%,
-        rgba(82, 33, 6, 0.79) 100%
-      )
-      bottom left no-repeat,
-    url(@/assets/images/teddy-osterblom-owiVf9bFKHM-unsplash.jpg) bottom right
-      40% no-repeat;
-  background-size: cover, cover;
   padding: 16px 2rem;
   overflow: auto;
 }
