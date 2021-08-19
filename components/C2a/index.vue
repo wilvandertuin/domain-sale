@@ -25,9 +25,9 @@
 
 .card {
   background: linear-gradient(
-      148.91deg,
-      rgba(255, 255, 255, 0.2) 10.24%,
-      rgba(0, 0, 0, 0) 79.89%
+      150deg,
+      rgba(255, 255, 255, 0.2) 10%,
+      rgba(0, 0, 0, 0) 80%
     ),
     #042e38;
   box-shadow: 0px 16px 14px rgba(0, 0, 0, 0.2);
