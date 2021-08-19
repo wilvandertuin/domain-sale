@@ -22,14 +22,14 @@ div {
   border-radius: 0px 0px 8px 8px;
   background: #ffc439;
   color: #042e38;
-  padding: 0 24px;
-  font-weight: 600;
-  font-size: 18px;
+  padding: 0.25rem 42px 0.25rem 24px;
+  font-weight: 700;
+  font-size: clamp(1.2rem, 1.8vw, 2rem);
   line-height: 27px;
   text-transform: uppercase;
   text-decoration: underline 4px rgba(166, 122, 20, 0.5);
   text-underline-offset: 2px;
-  line-height: 50px;
+  line-height: 2;
   position: relative;
   text-align: center;
 }
