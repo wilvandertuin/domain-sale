@@ -4,8 +4,7 @@
       <li>Corto</li>
       <li>Cautivador</li>
       <li>Memorable</li>
-      <li>Gay</li>
-      <li>Tuyo en 5 minutos</li>
+      <li>Transferencia segura</li>
     </ul>
   </section>
 </template>
