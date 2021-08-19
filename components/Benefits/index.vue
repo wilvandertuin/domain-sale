@@ -31,6 +31,7 @@ li {
   font-size: 20px;
   line-height: 1.25;
   color: white;
+  text-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
 }
 
 @media (min-width: 720px) {

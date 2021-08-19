@@ -37,6 +37,7 @@
     width: 100%;
     max-width: 800px;
     row-gap: 60px;
+    justify-content: space-between;
   }
 
   main {

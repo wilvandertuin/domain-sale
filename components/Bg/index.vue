@@ -33,11 +33,21 @@ figure::after {
   inset: 0;
   background: linear-gradient(
       180deg,
+      transparent,
+      rgba(63, 81, 181, 0.6) 80%,
+      rgba(233, 30, 99, 0.5)
+    )
+    bottom left no-repeat;
+
+  /*
+  background: linear-gradient(
+      180deg,
       rgba(0, 0, 0, 0) 0%,
       rgba(82, 33, 6, 0.79) 80%,
       rgba(82, 33, 6, 0.79) 100%
     )
     bottom left no-repeat;
+    */
   background-size: cover;
 }
 </style>

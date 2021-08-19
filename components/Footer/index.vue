@@ -20,6 +20,6 @@ footer {
   font-weight: 600;
   font-size: 14px;
   line-height: 1.5;
-  color: rgba(255, 255, 255, 0.5);
+  color: rgba(255, 255, 255, 0.75);
 }
 </style>
