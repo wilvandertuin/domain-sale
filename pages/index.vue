@@ -48,6 +48,7 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     column-gap: 32px;
+    align-items: center;
   }
 }
 </style>
