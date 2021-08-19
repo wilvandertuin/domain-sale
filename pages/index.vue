@@ -34,8 +34,8 @@
 @media (min-width: 720px) {
   .layout {
     display: flex;
-    width: 100%;
-    max-width: 800px;
+    width: clamp(360px, 95%, 1200px);
+    // max-width: 800px;
     row-gap: 60px;
     justify-content: space-between;
   }
@@ -46,8 +46,8 @@
     // column-gap: 32px;
     // justify-content: center;
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    column-gap: 32px;
+    grid-template-columns: 1fr 1fr;
+    column-gap: clamp(2rem, 6vw, 6rem);
     align-items: center;
   }
 }

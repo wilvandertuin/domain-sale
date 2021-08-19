@@ -37,7 +37,7 @@
 }
 
 .content {
-  padding: 80px 18px 54px;
+  padding: 80px clamp(54px, 6vw, 80px) 54px;
   position: relative;
   display: flex;
   flex-direction: column;
@@ -47,7 +47,7 @@
   position: absolute;
   left: 24px;
   top: 12px;
-  font-size: 14px;
+  font-size: clamp(14px, 1.5vw, 16px);
   line-height: 1.5;
   text-transform: uppercase;
   color: #b7e1eb;
@@ -62,7 +62,7 @@
 
 .name {
   font-weight: bold;
-  font-size: 36px;
+  font-size: clamp(36px, 4.5vw, 54px);
   line-height: 1.5;
   color: #f4fdff;
   text-decoration: underline rgba(255, 255, 255, 0.25);
@@ -71,7 +71,7 @@
 
 .price {
   font-family: 'Mogra', cursive;
-  font-size: 18px;
+  font-size: clamp(18px, 2vw, 24px);
   line-height: 1.2;
 }
 
@@ -88,8 +88,8 @@
   }
 
   .container {
-    width: 280px;
-    margin: 0 auto;
+    width: fit-content;
+    margin-left: auto;
   }
 }
 </style>

@@ -16,20 +16,17 @@ section {
 
 ul {
   list-style-type: none;
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
 }
 
 li {
   background-image: url(~assets/images/marker.svg);
   background-repeat: no-repeat;
   background-position: center left;
-  padding-left: 24px;
+  padding-left: clamp(1.5rem, 2vw, 3rem);
   font-style: normal;
   font-weight: 600;
-  font-size: 20px;
-  line-height: 1.25;
+  font-size: clamp(1.25rem, 2vw, 2rem);
+  line-height: 1.6;
   color: white;
   text-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
 }
