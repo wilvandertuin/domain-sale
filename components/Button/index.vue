@@ -22,7 +22,7 @@ div {
   border-radius: 0px 0px 8px 8px;
   background: #ffc439;
   color: #042e38;
-  padding: 0.25rem 42px 0.25rem 24px;
+  padding: 0.25rem 42px;
   font-weight: 700;
   font-size: clamp(1.2rem, 1.8vw, 2rem);
   line-height: 27px;
