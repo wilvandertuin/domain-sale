@@ -1,7 +1,7 @@
 <template>
   <nav>
     <div class="container">
-      <a class="card" href="#">
+      <a class="card" href="mailto:info@cdmx.gay">
         <div class="content">
           <div class="operation">Transfer Domain Name</div>
           <div class="offer">
