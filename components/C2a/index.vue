@@ -84,9 +84,6 @@
 }
 
 @media (min-width: 720px) {
-  nav {
-  }
-
   .container {
     width: fit-content;
     margin-left: auto;
